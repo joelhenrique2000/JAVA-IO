@@ -15,14 +15,14 @@ public class WriteFIleEx {
 		File file = new File("C:\\test\\texto.txt");
 		
 		try {
-			OutputStream is = new FileOutputStream(file);
+			OutputStream is = new FileOutputStream(file,true);
 			OutputStreamWriter osw = new OutputStreamWriter(is);
 			BufferedWriter writer = new BufferedWriter(osw);
 
 			writer.write("testestestesteste");
 			writer.newLine();
 			writer.write("testesteste");
-			
+
 			writer.close();
 			
 		} catch (FileNotFoundException e) {
