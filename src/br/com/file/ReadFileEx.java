@@ -18,7 +18,7 @@ public class ReadFileEx {
 			InputStream is = new FileInputStream(file);
 			InputStreamReader isr = new InputStreamReader(is);
 			BufferedReader reader = new BufferedReader(isr);
-			
+
 			String row = reader.readLine();
 			
 			while (row != null) {

@@ -18,7 +18,7 @@ public class WriteFIleEx {
 			OutputStream is = new FileOutputStream(file);
 			OutputStreamWriter osw = new OutputStreamWriter(is);
 			BufferedWriter writer = new BufferedWriter(osw);
-			
+
 			writer.write("testestestesteste");
 			writer.newLine();
 			writer.write("testesteste");
