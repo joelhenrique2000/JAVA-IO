@@ -3,7 +3,7 @@ package br.com.file;
 import java.io.File;
 import java.io.IOException;
 
-public class CreateFileEx3 {
+public class CreatePathEx3 {
 	public static void main(String[] args) {
 		
 		String filename = "test.txt";
