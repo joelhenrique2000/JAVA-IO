@@ -29,7 +29,7 @@ class MyFileVisitor extends SimpleFileVisitor<Path> {
 	static LinkedList<Path> paths = new LinkedList<>();
 	
     public FileVisitResult visitFile(Path path, BasicFileAttributes fileAttributes){
-        //System.out.println("Nome do arquivo:" + path.getFileName());
+        System.out.println("Nome do arquivo:" + path.getFileName());
     	paths.add(path);
         return FileVisitResult.CONTINUE;
 
