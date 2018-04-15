@@ -19,3 +19,10 @@
 * Deletando arquivos: [link](https://github.com/joelhenrique2000/JAVA-IO/blob/master/src/br/com/file/DeleteFileEx.java)
 
 * Alterando permissões de arquivos: [link](https://github.com/joelhenrique2000/JAVA-IO/blob/master/src/br/com/file/FilePermissionEx.java)
+
+----
+
+# Algoritmos
+
+* Percorrendo todos os arquivos de um diretorio(SEM ENTRAR NOS ARQUIVOS DE SUB-PASTAS): [link](https://github.com/joelhenrique2000/JAVA-IO/blob/master/src/br/com/algoritmos/PercorrendoArquivosSemSubPasta.java)
+* Percorrendo todos os arquivos de um diretorio(ENTRANDO NOS ARQUIVOS DE SUB-PASTAS): [link](https://github.com/joelhenrique2000/JAVA-IO/blob/master/src/br/com/algoritmos/PercorrendoArquivosComSubPasta.java)
